@@ -176,6 +176,9 @@
   .mt-\[300px\] {
     margin-top: 300px;
   }
+  .mt-\[git50px\] {
+    margin-top: git50px;
+  }
   .mr-\[-50px\] {
     margin-right: -50px;
   }
@@ -187,6 +190,9 @@
   }
   .mb-\[20px\] {
     margin-bottom: 20px;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .ml-\[-50px\] {
     margin-left: -50px;
@@ -239,6 +245,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -270,11 +279,17 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
+  .text-center {
+    text-align: center;
+  }
   .text-\[22px\] {
     font-size: 22px;
   }
   .text-\[50px\] {
     font-size: 50px;
+  }
+  .text-\[60px\] {
+    font-size: 60px;
   }
   .text-white {
     color: var(--color-white);
