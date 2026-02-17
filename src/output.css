@@ -289,6 +289,9 @@
   .w-\[250px\] {
     width: 250px;
   }
+  .w-\[250pxx\] {
+    width: 250pxx;
+  }
   .w-\[300px\] {
     width: 300px;
   }
@@ -353,6 +356,15 @@
   .bg-yellow-100 {
     background-color: var(--color-yellow-100);
   }
+  .p-1 {
+    padding: calc(var(--spacing) * 1);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
+  .p-\[1\] {
+    padding: 1;
+  }
   .p-\[10px\] {
     padding: 10px;
   }
@@ -380,6 +392,9 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
   }
   .text-\[50px\] {
     font-size: 50px;
