@@ -10,6 +10,7 @@
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-green-950: oklch(26.6% 0.065 152.934);
     --color-white: #fff;
+    --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -175,8 +176,29 @@
   .mt-\[300px\] {
     margin-top: 300px;
   }
+  .mr-\[-50px\] {
+    margin-right: -50px;
+  }
+  .mr-\[-100px\] {
+    margin-right: -100px;
+  }
+  .mr-\[-\] {
+    margin-right: -;
+  }
   .mb-\[20px\] {
     margin-bottom: 20px;
+  }
+  .ml-\[-50px\] {
+    margin-left: -50px;
+  }
+  .ml-\[-100px\] {
+    margin-left: -100px;
+  }
+  .ml-\[-\] {
+    margin-left: -;
+  }
+  .ml-\[0px\] {
+    margin-left: 0px;
   }
   .flex {
     display: flex;
@@ -189,6 +211,12 @@
   }
   .h-\[100vh\] {
     height: 100vh;
+  }
+  .w-350 {
+    width: calc(var(--spacing) * 350);
+  }
+  .w-\[350px\] {
+    width: 350px;
   }
   .w-\[400px\] {
     width: 400px;
@@ -216,6 +244,9 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
   }
   .rounded-\[20px\] {
     border-radius: 20px;
